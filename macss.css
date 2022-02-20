@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 980px;
+    margin: 0px auto;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.hang-dau{
+    width: 980px;
+    height: 40px;
+}
+.slogan{
+    font-size: 24px;
+    color: azure;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    margin-top: 10px;
+}
+header{
+    position: absolute;
+    background-color: #2e2d2d;
+}
+#icon-3-gach{
+    position: absolute;
+    width: 28px;
+    top: 50.5px;
+    left: 10px;
+}
+#search{
+    position: absolute;
+    top: 53.8px;
+    left: 46px;
+    border-radius: 14px;
+    height: 22px;
+    padding-left: 6px;
+    border: 2px solid #3A3D3D;
+}
+#icon_gio_hang{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    right: 37px;
+    top: 50.5px;
+}
+#icon-hinh-nguoi{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 50px;
+    right: 6px;
+} 
+.ten-shop{
+    position: absolute;
+    margin: 5.5px 430px;
+    color: #2e2d2d;
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+}
+.chay-anh{
+    margin: 122px auto;
+    width: 980px;
+}
+/* .ten-shop{
+    font-size: 20px;
+    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 5px;
+    color: #202020;
+} */
+.danh-muc{
+    position: absolute;
+    margin: 75px 54px;
+}
+/* .san-pham{
+    position: relative;
+    bottom: 110px;
+    font-size: 20px;
+} */
+.xem-them{
+    position: absolute;
+    top: 2580px;
+    left: 500px;
+    text-align: center;
+}
+.xem-them-san-pham{
+    text-align: center;
+    margin: 10px 0px;
+} 
+/* .xem-them > a:hover{
+    
+} */
+button{
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1.5px solid #3A3D3D;
+}
+footer{
+    position: relative;
+}
+table{
+    position: absolute;
+    /* background-color: antiquewhite; */
+    top: 1860px;
+    width: 980px;
+    left: 18px;
+}
+b{
+    color: #2f80ed;
+}
+.thong-tin-web{
+    position: absolute;
+    top: 1960px;
+    background-color: #FAEBD7;
+    width: 980px;
+    border-radius: 5px;
+}
+.thong-tin-web a{
+    text-decoration: none;
+    color: black;
+}
+.like{
+    position: absolute;
+    top: 2021px;
+    left: 480px;
+}
+.logo-face{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 1980px;
+    left: 480px;
+}
+.acc-face{
+    position: absolute;
+    top: 1985px;
+    left: 525px;
+    color: #3A3D3D;
+}

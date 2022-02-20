@@ -1,0 +1,104 @@
+#wrapper{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #111;
+    line-height: 1.15;
+}
+.headline{
+    text-align: center;
+    margin: 0px 0px;
+}
+#wrapper{
+    max-width: 980px;
+    margin: 0px auto;
+    position: relative;
+}
+marquee{
+    position: absolute;
+    font-size: 18px;
+    color: #111;
+    top: -100px;
+    right: 360px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1.5px solid #bebebe;
+    border-radius: 10px;
+    display: inline-block;
+    color: #555;
+    font-weight: 600;
+    width: 200px;
+}
+ul.products{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    top: -45px;
+}
+ul.products li{
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+ul.products li img{
+    max-width: 100%;
+    height: auto;
+}
+ul.products li .product-top{
+    position: relative;
+    overflow: hidden;
+}
+ul.products li .product-top .product-thumb{
+    display: block;
+}
+ul.products li:hover .product-top .product-thumb img{
+    filter: opacity(80%);
+}
+ul.products li .product-top .product-thumb img{
+    display: block;
+}
+ul.products li .product-top a.buy-now{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #FF69B4;
+    color: #fff;
+    padding: 10px 0px;
+    position: absolute;
+    width: 100%;
+    bottom: -39px;
+    transition: 0.15s ease-in-out;
+    opacity: 0.85;
+}   
+ul.products li:hover a.buy-now{
+    bottom: 0px;
+}
+ul.products li .product-info{
+    padding: 10px 0px;
+
+}
+ul.products li .product-info a{
+    display: block;
+    text-decoration: none;
+}
+ul.products li .product-info a.product-cat{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #9e9e9e;
+    padding: 3px 10px;
+}
+ul.products li .product-info a.product-name{
+    color: #334862;
+    padding: 3px 10px;
+    font-size: 14px;      
+}
+ul.products li .product-info .product-prine{
+    color: #111;
+    padding: 2px 50px;
+    font-weight: 600;
+    font-size: 14px;
+}
